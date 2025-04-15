@@ -114,9 +114,4 @@ const emptyStar = computed(() => 5 - fullStar.value - (halfStar.value ? 1 : 0));
 const isSaleAmount = computed(() =>
   Math.floor(product.value.discountPercentage)
 );
-
-// const discountAmount = computed(() => {
-//   const dA = (product.value.price * product.value.discountPercentage) / 100;
-//   return product.value.price - dA;
-// });
 </script>
